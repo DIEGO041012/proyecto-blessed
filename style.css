@@ -6,15 +6,23 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #141c29;
-    padding-top: 80px;
 }
-.logoprincipal{
-    margin: 0px;
-    padding: 0px;
-    width: 20vh;
-    height: 80px;
+
+.barradenavegacion
+{
     background-color: #263143;
+    position: fixed;
+    width: 100%;
+    height: 12vh;
+    z-index: 1;
+}
+
+.logo{
+    width: 14%;
+    height: 25vh;
+    border-radius: 10px;
+    margin: 10px;
+
 }
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -56,6 +64,8 @@ header{
 .contenedor{
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 130px;
     flex-wrap: wrap;
     gap: 50px;
     margin-bottom: 20px;
