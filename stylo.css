@@ -63,7 +63,7 @@ body{
     left: 10%;
     transform: translateX(-50%);
     top: 60%;
-    transform: translateY(-45%);
+    transform: translateY(-55%);
   }
   .anuncio {
     margin-left: -2%; /* Ajusta este valor según sea necesario para dejar espacio entre los elementos */
