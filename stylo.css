@@ -3,7 +3,7 @@
 
 body{
     text-align: center;
-    background-color: rgb(214, 183, 125);
+    background-color: rgb(221, 203, 169);
 }
 * Estilos generales para la barra de navegación */
 .navbar {
@@ -378,4 +378,100 @@ body{
   font-size: 1.2rem;
   line-height: 1.5;
   margin-bottom: 15px;
+}
+/* Estilo personalizado para el contenedor adicional */
+/* Estilo personalizado para el contenedor adicional */
+/* Estilos para el contenedor adicional */
+.adicional {
+  border: 2px solid #fdfdfd;
+  border-radius: 10px; /* Bordes redondos de 10 píxeles */
+  margin: 15px;
+  padding: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+  transition: transform 0.3s ease; /* Transición suave de 0.3 segundos en la propiedad transform */
+}
+
+/* Efecto al pasar el cursor sobre el contenedor */
+.adicional:hover {
+  transform: translateY(-5px); /* Mueve el contenedor hacia arriba al pasar el cursor */
+}
+
+/* Estilos adicionales para los elementos dentro del contenedor */
+.bg-dark-subtle, .bg-body, .bg-body-tertiary {
+  border: 1px solid #888;
+  border-radius: 5px; /* Bordes redondos de 5 píxeles */
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.iconos img {
+  width: 20px; /* Ajusta el tamaño según tus necesidades */
+  height: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Sombra ligera */
+  transition: transform 0.3s ease; /* Transición suave de 0.3 segundos en la propiedad transform */
+}
+
+.iconos img:hover {
+  transform: translateY(-5px); /* Mueve el icono hacia arriba al pasar el cursor */
+}
+.galeri2 {
+  font-family: Termina, sans-serif;
+  color: #111;
+  background: #ffffff;
+  overflow-x: hidden;
+}
+
+.galeria2 {
+  padding: 5vw;
+  width: 100%;
+  height: 100%;
+  background-image: url('./img/panadero2.jfif');
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: no-repeat;
+  
+}
+
+.credit {
+  text-align: center;
+  z-index: 999;
+  font-size: 0.8rem;
+}
+.credit a {
+  color: inherit;
+}
+
+.galleri2 {
+  z-index: 1;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: visible;
+  max-width: auto;
+  width: 800vh;
+}
+
+.image {
+  width: 30vw;
+  filter: saturate(0);
+  padding: 1rem;
+  align-items: center;
+  display: inline-flex;
+}
+
+.image:nth-child(2n) {
+  width: 25vw;
+}
+
+.image:hover {
+  z-index: 99999999999 !important;
+  filter: saturate(1);
+}
+
+img {
+  transition: 0.3s ease-out;
+  overflow: hidden;
+  width: 100%;
 }

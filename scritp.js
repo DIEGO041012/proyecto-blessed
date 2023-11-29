@@ -1,3 +1,4 @@
+
 const cardImg = document.querySelector(".card img"),
   menuBtn = document.querySelector(".menu-btn"),
   popular = document.querySelector(".popular"),
@@ -22,3 +23,4 @@ document.querySelectorAll(".popular").forEach((item) => {
     item.classList.toggle("opened");
   });
 });
+
